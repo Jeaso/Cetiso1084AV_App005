@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.cetis108.cetiso1084av_app005.tema_tipo">
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="237dp"
+        android:layout_height="150dp"
+        android:text="Descripción"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_alignLeft="@+id/txtTitulo"
+        android:layout_alignStart="@+id/txtTitulo"
+        android:layout_marginTop="71dp" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="237dp"
+        android:layout_height="150dp"
+        android:text="Titulo"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
